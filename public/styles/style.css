@@ -289,14 +289,6 @@ a:hover, a:active, a:focus {
 }
 
 /**
- * Basic typography style for copy text
- */
-body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-/**
  * Clear inner floats
  */
 .clearfix::after {
@@ -353,6 +345,14 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #222222;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /**
