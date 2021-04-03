@@ -24,7 +24,7 @@ const HomeRouter = require('./routes/home');
 
 var store = new connect({
     uri: MONGODB_URL,
-    collection: 'mySessions',
+    collection: 'session',
 });
 
 //! __   __   ___      ___  ___          __   __
