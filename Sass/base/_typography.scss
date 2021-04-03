@@ -1,0 +1,9 @@
+@use "../abstracts/variables";
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: variables.$text-color;
+  font: normal 125% / 1.4 variables.$text-font-stack;
+}
