@@ -15,7 +15,8 @@
         "mongo",
         "auth",
         "sass",
-        "scss"
+        "scss",
+        "gulp"
     ],
     "author": "Ian Rackson",
     "license": "ISC",
@@ -28,13 +29,20 @@
         "ejs": "^3.1.6",
         "express": "^4.17.1",
         "express-session": "^1.17.1",
+        "gulp-dart-sass": "^1.0.2",
         "mercedlogger": "^1.0.1",
         "method-override": "^3.0.0",
         "mongoose": "^5.12.1",
         "morgan": "^1.10.0"
     },
     "devDependencies": {
-        "nodemon": "^2.0.7",
-        "sass": "^1.32.8"
+        "autoprefixer": "^10.2.5",
+        "cssnano": "^4.1.10",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^9.0.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "nodemon": "^2.0.7"
     }
 }
