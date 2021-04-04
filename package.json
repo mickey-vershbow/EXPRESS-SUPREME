@@ -5,8 +5,6 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "compile:sass": "sass sass/main.scss public/styles/style.css",
-        "watch:sass": "sass --watch sass/main.scss:public/styles/style.css",
         "dev": "nodemon server.js",
         "seed": "node db/seed.js"
     },
