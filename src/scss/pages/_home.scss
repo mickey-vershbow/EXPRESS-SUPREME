@@ -4,9 +4,8 @@
 // -----------------------------------------------------------------------------
 
 h1 {
-    color: red;
-}
-
-body {
-    background-color: blue;
+    color: $brand-color;
+    text-align: center;
+    font-weight: 1199;
+    -webkit-text-stroke: 1px whitesmoke;
 }

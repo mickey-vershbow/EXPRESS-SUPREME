@@ -13,19 +13,23 @@
                         <li>
                             <label for="username">Username:</label>
                             <input
+                                class="input"
                                 type="text"
                                 name="username"
                                 id="username"
+                                placeholder="username"
                                 autocomplete="username"
                                 required="required"
                                 pattern="[A-Za-z0-9]{1,20}"
                             />
                         </li>
                         <li>
-                            <label for="password">Password:</label>
+                            <label for="username">Password:</label>
                             <input
+                                class="input"
                                 type="password"
                                 name="password"
+                                placeholder="password"
                                 id="password"
                                 autocomplete="new-password"
                                 required="required"
@@ -33,6 +37,7 @@
                             />
                         </li>
                         <li>
+                            <!-- use <li style="display: none"> if no admin accounts -->
                             <label for="admin" id="admin-aside"
                                 >check this box to enable admin
                                 permissions</label
@@ -85,7 +90,11 @@
                             }
                         }
                     </script>
-                    <input type="submit" class="btn" value="create account" />
+                    <input
+                        type="submit"
+                        class="button"
+                        value="create account"
+                    />
                 </form>
             </div>
         </main>
